@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Amazon Purchase -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+        <TextView android:layout_width="36dp" android:layout_height="36dp"
+            android:background="@drawable/bg_txn_green" android:gravity="center" android:text="🛒" android:textSize="16sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Amazon Purchase" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Today, 10:32 AM" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="-₹2,399" android:textColor="@color/sb_danger" android:textSize="13sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sb_divider" />
+
+    <!-- Salary Credit -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+        <TextView android:layout_width="36dp" android:layout_height="36dp"
+            android:background="@drawable/bg_txn_blue" android:gravity="center" android:text="💼" android:textSize="16sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Salary Credit" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Yesterday, 9:00 AM" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="+₹85,000" android:textColor="@color/sb_success" android:textSize="13sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sb_divider" />
+
+    <!-- Electricity Bill -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+        <TextView android:layout_width="36dp" android:layout_height="36dp"
+            android:background="@drawable/bg_txn_orange" android:gravity="center" android:text="⚡" android:textSize="16sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Electricity Bill" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Mar 7, 2026" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="-₹1,240" android:textColor="@color/sb_danger" android:textSize="13sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sb_divider" />
+
+    <!-- Rent Transfer -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+        <TextView android:layout_width="36dp" android:layout_height="36dp"
+            android:background="@drawable/bg_txn_red" android:gravity="center" android:text="🏠" android:textSize="16sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Rent Transfer" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Mar 5, 2026" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="-₹25,000" android:textColor="@color/sb_danger" android:textSize="13sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sb_divider" />
+
+    <!-- UPI Received -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+        <TextView android:layout_width="36dp" android:layout_height="36dp"
+            android:background="@drawable/bg_txn_green" android:gravity="center" android:text="📱" android:textSize="16sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="UPI Received — Rahul" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Mar 4, 2026" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="+₹500" android:textColor="@color/sb_success" android:textSize="13sp" android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

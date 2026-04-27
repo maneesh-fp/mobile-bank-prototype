@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SecureBank</string>
+    <string name="tagline">ALWAYS WITH YOU</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sign_in_subtitle">Sign in to your SecureBank account</string>
+    <string name="tab_customer_id">Customer ID</string>
+    <string name="tab_mobile">Mobile Number</string>
+    <string name="label_customer_id">Customer ID / Username</string>
+    <string name="hint_customer_id">Enter your Customer ID</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="remember_device">Remember this device</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="btn_sign_in">Sign In Securely</string>
+    <string name="btn_sign_in_loading">Verifying device…</string>
+    <string name="or">or</string>
+    <string name="btn_otp">Continue with Net Banking OTP</string>
+    <string name="footer_privacy">Privacy Policy</string>
+    <string name="footer_terms">Terms of Use</string>
+    <string name="footer_security">Security</string>
+    <string name="footer_contact">Contact Us</string>
+    <string name="footer_copyright">© 2026 SecureBank Limited. Registered &amp; regulated by the Reserve Bank of India. DICGC insured.</string>
+
+    <string name="hero_line1">Banking that puts</string>
+    <string name="hero_line2">you first.</string>
+    <string name="hero_subtitle">Manage your money anytime, anywhere — securely.</string>
+    <string name="feature_auth_title">Secure Authentication</string>
+    <string name="feature_auth_desc">256-bit encryption with device fingerprinting for every session</string>
+    <string name="feature_transfer_title">Instant Transfers</string>
+    <string name="feature_transfer_desc">NEFT, RTGS, IMPS and UPI all in one place, 24/7</string>
+    <string name="feature_insights_title">Smart Insights</string>
+    <string name="feature_insights_desc">AI-powered spend analysis and personalised financial advice</string>
+    <string name="feature_fraud_title">Fraud Protection</string>
+    <string name="feature_fraud_desc">Real-time monitoring flags suspicious logins instantly</string>
+</resources>

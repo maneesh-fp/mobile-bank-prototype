@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand palette — matches dashboard.html CSS vars exactly -->
+    <color name="sb_primary">#003c7e</color>
+    <color name="sb_primary_dark">#002a5c</color>
+    <color name="sb_blue_mid">#005baa</color>
+    <color name="sb_blue_light">#0071ce</color>
+    <color name="sb_badge">#0071ce</color>
+    <color name="sb_orange">#f7941d</color>
+
+    <!-- Surfaces -->
+    <color name="sb_background">#f4f6fb</color>
+    <color name="sb_surface">#FFFFFF</color>
+    <color name="sb_card_border">#d1d9e6</color>
+    <color name="sb_icon_bg">#e8f0fb</color>
+
+    <!-- Text -->
+    <color name="sb_text_primary">#1a1a2e</color>
+    <color name="sb_text_secondary">#6b7280</color>
+    <color name="sb_text_hint">#9CA3AF</color>
+
+    <!-- Semantic -->
+    <color name="sb_success">#16a34a</color>
+    <color name="sb_success_bg">#dcfce7</color>
+    <color name="sb_danger">#dc2626</color>
+    <color name="sb_danger_bg">#fee2e2</color>
+    <color name="sb_warning_bg">#fff7ed</color>
+    <color name="sb_info_bg">#dbeafe</color>
+
+    <!-- Misc -->
+    <color name="sb_divider">#E2E8F0</color>
+    <color name="sb_link">#0071ce</color>
+    <color name="sb_tab_container">#E2E8F0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

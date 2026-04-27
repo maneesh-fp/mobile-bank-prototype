@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginBottom="6dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📄" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Account Statement" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginBottom="6dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💳" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Request New Debit / Credit Card" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginBottom="6dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔐" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Change MPIN / Password" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginBottom="6dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📬" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Update Address / Contact Details" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginBottom="6dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🛑" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Block / Unblock Account" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🏦" android:textSize="16sp" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1"
+            android:text="Cheque Book Request" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="@color/sb_text_secondary" android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

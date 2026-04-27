@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Fixed Deposit -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="12dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Fixed Deposit" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Matures Apr 2027  ·  7.5% p.a." android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="₹2,00,000" android:textColor="@color/sb_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_active" android:layout_marginTop="3dp"
+                android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+                android:text="Active" android:textColor="@color/sb_success" android:textSize="10sp" android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+    <!-- Recurring Deposit -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="12dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Recurring Deposit" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="₹5,000/mo  ·  6.8% p.a." android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="₹60,000" android:textColor="@color/sb_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_active" android:layout_marginTop="3dp"
+                android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+                android:text="Active" android:textColor="@color/sb_success" android:textSize="10sp" android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+    <!-- Home Loan -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="12dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Home Loan" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="EMI ₹22,400/mo  ·  Due Mar 15" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="₹38,50,000" android:textColor="@color/sb_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_danger" android:layout_marginTop="3dp"
+                android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+                android:text="Outstanding" android:textColor="@color/sb_danger" android:textSize="10sp" android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+    <!-- Mutual Funds -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_deposit_item" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="12dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Mutual Funds" android:textColor="@color/sb_text_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="SIP ₹10,000/mo  ·  Nifty 50 Index" android:textColor="@color/sb_text_secondary" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="₹1,12,000" android:textColor="@color/sb_primary" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_active" android:layout_marginTop="3dp"
+                android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="2dp" android:paddingBottom="2dp"
+                android:text="Active" android:textColor="@color/sb_success" android:textSize="10sp" android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
