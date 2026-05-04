@@ -62,7 +62,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
-    implementation("com.fingerprint.android:pro:2.14.0")
+    implementation("com.fingerprint.android:pro:2.15.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
